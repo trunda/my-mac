@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.stacklogic.AlfredCall</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>5ED780FE-6FA4-4F28-A55E-983AA3BF813D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ED2E1179-6F96-47FD-99B6-D595E927C90D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Marshall Huss</string>
+	<key>description</key>
+	<string>Call one of your contacts on your iPhone</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Call Contact</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>open tel://{query}</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>ED2E1179-6F96-47FD-99B6-D595E927C90D</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>name</key>
+				<string>Call on your iPhone</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.contact</string>
+			<key>uid</key>
+			<string>5ED780FE-6FA4-4F28-A55E-983AA3BF813D</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>In OS X Yosemite you can make and receive phone calls with your iPhone right from your desktop. This workflow allows you to initiate a call right from a contact.
+
+To Use:
+
+- Open Alfred
+- Search for a contact by name
+- Hit enter
+- Highlight phone number
+- Hit enter
+
+
+Icon credit https://www.iconfinder.com/phdieuli</string>
+	<key>uidata</key>
+	<dict>
+		<key>5ED780FE-6FA4-4F28-A55E-983AA3BF813D</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>ED2E1179-6F96-47FD-99B6-D595E927C90D</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://mwhuss.com</string>
+</dict>
+</plist>

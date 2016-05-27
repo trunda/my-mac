@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customFields</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<string>5ED780FE-6FA4-4F28-A55E-983AA3BF813D</string>
+			<key>schemeurl</key>
+			<string></string>
+			<key>uid</key>
+			<string>alfred.contact.field.phone</string>
+		</dict>
+	</array>
+</dict>
+</plist>
