@@ -20,4 +20,6 @@ iterm2 \
 spotify \
 virtualbox \
 vagrant \
-atom
+atom \
+transmit \
+fantastical
